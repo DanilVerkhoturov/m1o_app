@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="Theme.Custom" parent="Theme.AppCompat.Light"><item name="android:colorBackground">#ffffffff</item><item name="android:windowBackground">?android:attr/colorBackground</item><item name="android:colorPrimary">#ffffffff</item><item name="android:colorAccent" /><item name="android:colorControlNormal">#ff4bf6fa</item><item name="android:colorButtonNormal">#ff33f5f9</item></style>
+	<style name="Theme.Custom1" parent="@style/MainTheme"><item name="android:colorBackground" /><item name="android:windowBackground" /><item name="android:colorPrimary">#fff9f9f9</item><item name="android:colorControlNormal">#ff64f2fb</item><item name="android:colorButtonNormal">#ff31fbf7</item><item name="android:colorPrimaryDark">#ffffffff</item></style>
+</resources>

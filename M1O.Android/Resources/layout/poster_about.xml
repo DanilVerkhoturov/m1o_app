@@ -1,0 +1,120 @@
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linearLayout1" >
+    <ScrollView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView1">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/linearLayout2">
+            <ImageView
+                android:src="@drawable/poster"
+                android:layout_width="match_parent"
+                android:layout_height="194.7dp"
+                android:id="@+id/imageView1"
+                android:scaleType="fitXY"
+                />
+            <TextView
+                android:text="Название мероприятия"
+                android:layout_width="412.6dp"
+                android:layout_height="49.1dp"
+                android:id="@+id/textView1"
+                android:textSize="20dp"
+                android:layout_marginLeft="0.0dp"
+                android:layout_marginRight="0.0dp"
+                android:typeface="normal"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+            />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayout3">
+
+                <ImageButton
+                    android:src="@drawable/like"
+                    android:layout_width="67.0dp"
+                    android:layout_height="48.4dp"
+                    android:id="@+id/imageButton1"
+                    android:layout_marginLeft="74.0dp"
+                    android:scaleType="fitXY"
+                    android:background = "@"
+                />
+                <ImageButton
+                    android:src="@drawable/vkontakte_png19"
+                    android:layout_width="67.0dp"
+                    android:layout_height="51.4dp"
+                    android:id="@+id/imageButton1"
+                    android:layout_marginLeft="38.1dp"
+                    android:scaleType="fitXY"
+                    android:background = ""
+                />
+                <ImageButton
+                    android:src="@drawable/settings"
+                    android:layout_width="51.4dp"
+                    android:layout_height="39.2dp"
+                    android:id="@+id/imageButton1"
+                    android:layout_marginLeft="38.1dp"
+                    android:scaleType="fitXY"
+                    android:background = ""
+                    android:layout_marginTop="5.7dp" 
+                />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayout4">
+                <TextView
+                    android:text="Участникам предлагалось сыграть интересные игры «Цепочка», «Мясоед» и многие другие. Особенность этой игровой программы заключалась в том, чтобы собрать побольше овощей для осеннего винегрета. Ребята с огромным энтузиазмом и увлечением выполняли все задания. Команда «Зима» одержала победу. Все участники получили сладкие призы, а так же долгожданные ингредиенты для осеннего винегрета."
+                    android:layout_width="match_parent"
+                    android:layout_height="150.1dp"
+                    android:id="@+id/textView2"
+                    android:layout_marginLeft="16.8dp"
+                    android:textAlignment="center"
+                    android:layout_marginRight="16.8dp" />
+                <TextView
+                    android:text="24 декабря, 18:00"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView3"
+                    android:layout_marginTop="4.6dp"
+                    android:layout_marginLeft="8.0dp" />
+                <TextView
+                    android:text="Дворец культуры и кино "
+                    Русь""
+                    android:layout_width="match_parent"
+                    android:layout_height="24.8dp"
+                    android:id="@+id/textView4"
+                    android:layout_marginLeft="6.9dp"
+                    android:layout_marginTop="5.3dp" />
+                <ImageView
+                    android:src="@drawable/map_screen"
+                    android:layout_width="match_parent"
+                    android:layout_height="175.2dp"
+                    android:id="@+id/imageView2"
+                    android:scaleType="fitXY"
+                />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
