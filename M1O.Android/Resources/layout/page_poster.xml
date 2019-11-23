@@ -2,6 +2,7 @@
 <ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:p4="http://xamarin.com/mono/android/designer"
     android:minWidth="25px"
     android:minHeight="25px"
     android:layout_width="wrap_content"
@@ -15,28 +16,11 @@
         android:layout_height="match_parent"
         android:id="@+id/linearLayout1"
         android:overScrollMode="always">
+       
         <RelativeLayout
             android:minWidth="25px"
             android:minHeight="25px"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/relativeLayout2"
-            android:background="#ff00b8d4">
-            <TextView
-                android:text="Афиша Ноябрьск"
-                android:layout_width="match_parent"
-                android:layout_height="41.9dp"
-                android:id="@+id/textView3"
-                android:textColor="#ff000000"
-                android:textStyle="bold"
-                android:textAlignment="center"
-                android:layout_marginTop="1.5dp"
-                android:textSize="25dp" />
-        </RelativeLayout>
-        <RelativeLayout
-            android:minWidth="25px"
-            android:minHeight="25px"
-            android:layout_width="match_parent"
+            android:layout_width="408.0dp"
             android:layout_height="40.0dp"
             android:id="@+id/relativeLayout2"
             android:background="#ffffff"
@@ -70,39 +54,83 @@
             android:orientation="vertical"
             android:minWidth="25px"
             android:minHeight="25px"
-            android:layout_width="match_parent"
-            android:layout_height="257.9dp"
+            android:layout_width="377.9dp"
+            android:layout_height="117.0dp"
             android:id="@+id/linearLayout1"
             android:background="#ffffffff"
-            android:overScrollMode="always">
+            android:overScrollMode="always"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            >
             <RelativeLayout
                 android:minWidth="25px"
                 android:minHeight="25px"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/relativeLayout1" />
-            <ImageView
-                android:src="@drawable/poster"
-                android:layout_width="407.6dp"
-                android:layout_height="197.7dp"
-                android:id="@+id/imageView1"
-                android:layout_marginBottom="0.0dp"
-                android:scaleType="fitXY" />
-            <TextView
-                android:text="Название мероприятия"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/textView1"
-                android:layout_marginBottom="0.0dp"
-                android:layout_marginTop="3.4dp"
-                android:layout_marginLeft="6.5dp" />
-            <TextView
-                android:text="Краткое описание"
+                android:id="@+id/relativeLayout3"
+                android:background="radius"
+              
+                <ImageView
+                    android:src="@drawable/poster"
+                    android:layout_width="111.6dp"
+                    android:layout_height="66.3dp"
+                    android:id="@+id/imageView1"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:scaleType="fitXY" />
+
+                <TextView
+                    android:text="Название мероприятия"
+                    android:layout_width="240dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/textView4"
+                    android:layout_marginLeft="130dp"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+                    android:textSize="16dp" 
+                    />
+                <TextView
+                android:text="Пятница,22 ноября"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/textView2"
-                android:layout_marginBottom="9.9dp"
-                android:layout_marginLeft="10.3dp" />
+                android:id="@+id/textView5" 
+                android:layout_marginLeft="130dp"
+                    android:layout_marginTop="35dp"
+                    android:textSize="11dp"
+                        />
+                <TextView
+                    android:text="Нояюрьск, советская 13"
+                    android:layout_width="150.1dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView5"
+                    android:layout_marginLeft="130dp"
+                    android:layout_marginTop=50dp"
+                    android:textSize="12dp"
+                    android:textStyle="bold" 
+                        />
+                <TextView
+                    android:text="Вход: бесплатный"
+                    android:layout_width="127.2dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView5"
+                    android:layout_marginLeft="130dp"
+                    android:layout_marginTop=70dp"
+                        />
+            />
+            
+            
+          
+        
+            
+
+           
+
+
+
+
         </LinearLayout>
         <LinearLayout
             android:orientation="vertical"
